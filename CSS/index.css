@@ -1,0 +1,103 @@
+body{
+    background-color: #F1F2EB;
+}
+
+header {
+    height: 75px;
+    width: 100%;
+    background-color: #846B8A ;
+    position: absolute;
+    left: 0;
+    top:0;
+}
+
+.headerlogo {
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 65px;
+    height: 65px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 5px;
+    background-image: url(../images/Logolight.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navmenu{
+    display: inline-block;
+    float: right;
+    vertical-align: top;
+    margin-right: 30px;
+
+}
+
+.navitem{
+    display: inline-block;
+    padding-left: 50px;
+    margin-top: 12px;
+    color: #F1F2EB;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.nameplate {
+    position: relative;
+    top: 85px;
+    display: grid;
+    grid-template-columns: 220px 800px;
+    grid-template-rows: 85px 15px;
+    grid-template-areas: 
+    "platelogo myname"
+    "platelogo shortbio";
+    
+
+}
+
+#platelogo{
+    grid-area: platelogo;
+    
+    
+}
+
+#myname{
+    grid-area: myname;
+}
+
+#shortbio{
+    grid-area: shortbio;
+}
+
+.heroimg{
+    
+    background-color: #FFD976 ;
+    height: 550px;
+    width: 75%;
+    right: 0;
+    top: 250px;
+    position: absolute;
+}
+
+#glassespic{
+    position: absolute;
+    bottom: 0;
+    right: 15%;
+    height: 650px;
+    background-image: url(../images/johnInGlasses.png);
+    
+}
+
+footer{
+    background-color: #FF9D8D;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    
+}
+
+.footerfooter{
+    background-color: #262626 ;
+    position: absolute;
+    width: 100%;
+    
+}
