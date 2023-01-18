@@ -1,5 +1,6 @@
 body{
     background-color: #F1F2EB;
+    
 }
 
 header {
@@ -51,6 +52,10 @@ h2{
     font-family: Arial, Helvetica, sans-serif
 }
 
+.content{
+    padding-bottom: 5px;
+}
+
 .nameplate {
     position: relative;
     top: 85px;
@@ -89,7 +94,7 @@ h2{
     position: absolute;
 }
 
-#glassespic{
+#glassesPic{
 
     height: 650px;
     width:50%;
@@ -105,10 +110,61 @@ h2{
     
 }
 
-footer{
+.work{
+    width: 100%;
+    position: absolute;
+    top:900px;
+    
+}
+
+.portIntro{
+    text-align: center;
+    
+}
+
+.workItems{
+    display: flexbox;
+}
+
+.portItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.workPreview{
+    display: flex;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 500px;
+    margin: 25px;
+    border-style: none;
+}
+
+.textbox{
+    padding: 5%;
+}
+
+.item1 .workPreview{
+    background-image: url(../images/LongPFSDT.png);
+    
+    
+}
+
+.item2 .workPreview{
+    background-image: ;
+
+}
+
+.item3 .workPreview{
+    background-image: url(../images/AFGDZ.png);
+}
+
+#footer{
     background-color: #FF9D8D;
     position: absolute;
-    bottom: 0;
+    top: 3000px;
     left: 0;
     width: 100%;
     
