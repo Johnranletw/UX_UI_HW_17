@@ -19,7 +19,7 @@ h1 {
 
 h2{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: ;
+    font-size: 36px;
 
 }
 
@@ -37,7 +37,7 @@ h2{
 }
 
 .navmenu{
-    display: inline-block;
+    
     float: right;
     vertical-align: top;
     margin-right: 30px;
