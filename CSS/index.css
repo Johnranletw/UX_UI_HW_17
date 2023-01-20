@@ -94,6 +94,12 @@ h2{
     position: absolute;
 }
 
+@media only screen and (max-width: 1200px) {
+    .heroimg {
+      display: none;
+    }
+  }
+
 #glassesPic{
 
     height: 650px;
@@ -115,6 +121,12 @@ h2{
     position: absolute;
     top:900px;
     
+}
+
+@media only screen and (max-width:1200px) {
+    .work {
+        top:300px;
+    }
 }
 
 .portIntro{
