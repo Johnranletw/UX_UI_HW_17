@@ -52,6 +52,10 @@ h2{
     font-family: Arial, Helvetica, sans-serif
 }
 
+.scrollProject{
+    cursor: pointer;
+}
+
 .content{
     padding-bottom: 5px;
 }
@@ -173,12 +177,33 @@ h2{
     background-image: url(../images/AFGDZ.png);
 }
 
+.scrollTop{
+    position: fixed;
+    bottom: 25px;
+    right: 50px;
+    
+}
+
+#scrollButton{
+    border-color: transparent;
+    background-color: transparent;
+    align-content: center;
+    height: 70px;
+    width: 80px;
+    z-index: 100;
+}
+
+#scrollButton img{
+    cursor: pointer;
+}
+
 #footer{
     background-color: #FF9D8D;
     position: absolute;
     top: 3000px;
     left: 0;
     width: 100%;
+    z-index: 1;
     
 }
 
