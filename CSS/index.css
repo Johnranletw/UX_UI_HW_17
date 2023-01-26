@@ -108,7 +108,7 @@ h2{
 
     height: 650px;
     width:50%;
-   background-image: url(../images/johnInGlasses.png);
+    background-image: url(../images/johnInGlasses.png);
     background-size: contain;
     background-repeat: no-repeat;
     display: block;
